@@ -1,0 +1,64 @@
+---
+layout: default
+---
+{% assign p = page %}
+{% assign tested = false %}{% if p.review_type == "tested" %}{% assign tested = true %}{% endif %}
+{% assign cat = site.data.categories | where: "name", p.category | first %}
+<article class="article"><div class="wrap narrow">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ '/reviews/' | relative_url }}">Reviews</a>{% if cat %} / <a href="{{ '/category/' | append: cat.slug | append: '/' | relative_url }}">{{ cat.name }}</a>{% endif %}</nav>
+  <span class="badge {% if tested %}badge--sage{% endif %}">{% if tested %}Hands-on tested{% else %}Research-based review{% endif %}</span>
+  <h1 style="margin-top:12px">{{ p.title }}</h1>
+  <p class="meta">By {{ p.author | default: "PICKORA Editorial" }} &middot; Published {{ p.date | date: "%-d %B %Y" }}{% if p.last_updated %} &middot; Updated {{ p.last_updated | date: "%-d %B %Y" }}{% endif %}</p>
+  {% if p.image %}<img src="{{ p.image | relative_url }}" alt="{{ p.image_alt | default: p.title | escape }}" style="border-radius:12px;margin:18px 0">{% endif %}
+  <p class="disclose">This article may contain affiliate links. If you buy through them, PICKORA may earn a commission at no extra cost to you. <a href="{{ '/affiliate-disclosure/' | relative_url }}">Learn more</a>.</p>
+  {% if p.excerpt %}<p style="font-size:1.15rem">{{ p.excerpt }}</p>{% endif %}
+
+  {% if p.verdict %}
+  <div class="verdict"><h2 style="margin-top:0;font-size:1.3rem">Quick Verdict</h2>
+    <p>{{ p.verdict }}</p>
+    {% if p.best_for %}<p><strong>Best suited for:</strong> {{ p.best_for }}</p>{% endif %}
+    {% if p.pros %}<p><strong>Main strength:</strong> {{ p.pros[0] }}</p>{% endif %}
+    {% if p.cons %}<p><strong>Main limitation:</strong> {{ p.cons[0] }}</p>{% endif %}
+    {% include affiliate-button.html url=p.affiliate_url %}
+  </div>
+  {% endif %}
+
+  {% if p.specs %}<h2>Product Specifications</h2>
+  <table class="specs"><tbody>{% for s in p.specs %}<tr><th scope="row">{{ s.label }}</th><td>{{ s.value }}</td></tr>{% endfor %}</tbody></table>{% endif %}
+
+  <div class="body">{{ content }}</div>
+
+  {% if p.pros or p.cons %}<h2>Pros and Cons</h2>
+  <div class="two">
+    <div class="pc pc--pro"><h3>Pros</h3><ul>{% for x in p.pros %}<li>{{ x }}</li>{% endfor %}</ul></div>
+    <div class="pc pc--con"><h3>Cons</h3><ul>{% for x in p.cons %}<li>{{ x }}</li>{% endfor %}</ul></div>
+  </div>{% endif %}
+
+  {% if p.experience %}<h2>Performance and Experience</h2><p>{{ p.experience }}</p>{% endif %}
+
+  {% if p.price_note or p.affiliate_url %}<h2>Price and Value</h2>
+  {% if p.price_note %}<p>{{ p.price_note }}</p>{% endif %}
+  <p>{% include affiliate-button.html url=p.affiliate_url %}</p>{% endif %}
+
+  {% if p.who_buy %}<h2>Who Should Buy This Product?</h2><ul>{% for x in p.who_buy %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+  {% if p.who_avoid %}<h2>Who Should Avoid It?</h2><ul>{% for x in p.who_avoid %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+
+  {% if p.alternatives %}<h2>Alternatives</h2><ul>
+    {% for s in p.alternatives %}{% assign a = site.reviews | where: "slug", s | first %}{% if a %}<li><a href="{{ a.url | relative_url }}">{{ a.title }}</a></li>{% endif %}{% endfor %}
+  </ul>{% endif %}
+
+  {% if p.faqs %}<h2>Frequently Asked Questions</h2>
+  {% for f in p.faqs %}<details><summary>{{ f.q }}</summary><p>{{ f.a }}</p></details>{% endfor %}{% endif %}
+
+  {% if p.affiliate_url and p.verdict %}<h2>Final Verdict</h2><p>{{ p.verdict }}</p><p>{% include affiliate-button.html url=p.affiliate_url %}</p>{% endif %}
+
+  {% include share.html %}
+</div>
+
+{% assign rel = "" | split: "" %}{% assign seen = "|" %}
+{% for s in p.related %}{% assign r = site.reviews | where: "slug", s | first %}{% if r and r.slug != p.slug %}{% assign rel = rel | push: r %}{% capture seen %}{{ seen }}{{ r.slug }}|{% endcapture %}{% endif %}{% endfor %}
+{% assign same = site.reviews | where: "category", p.category | sort: "date" | reverse %}
+{% for r in same %}{% if rel.size < 4 %}{% if r.slug != p.slug %}{% capture key %}|{{ r.slug }}|{% endcapture %}{% unless seen contains key %}{% assign rel = rel | push: r %}{% capture seen %}{{ seen }}{{ r.slug }}|{% endcapture %}{% endunless %}{% endif %}{% endif %}{% endfor %}
+{% if rel.size > 0 %}<section class="sec sec--ivory"><div class="wrap"><h2>Related Articles</h2>
+  <div class="grid">{% for r in rel %}{% include card.html item=r %}{% endfor %}</div></div></section>{% endif %}
+</article>

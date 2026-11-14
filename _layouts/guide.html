@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% assign gt = site.data.guide_types | where: "slug", page.type | first %}
+<article class="article"><div class="wrap narrow">
+  <nav class="crumbs" aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">Home</a>{% if gt %} / <a href="{{ '/guides/' | append: gt.slug | append: '/' | relative_url }}">{{ gt.name }}</a>{% endif %}</nav>
+  <h1>{{ page.title }}</h1>
+  <p class="meta">By {{ page.author | default: "PICKORA Editorial" }} &middot; Published {{ page.date | date: "%-d %B %Y" }}{% if page.last_updated %} &middot; Updated {{ page.last_updated | date: "%-d %B %Y" }}{% endif %}</p>
+  {% if page.image %}<img src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: page.title | escape }}" style="border-radius:12px;margin:18px 0">{% endif %}
+  <p class="disclose">This article may contain affiliate links. If you buy through them, PICKORA may earn a commission at no extra cost to you. <a href="{{ '/affiliate-disclosure/' | relative_url }}">Learn more</a>.</p>
+  <div class="body">{{ content }}</div>
+  {% include share.html %}
+</div></article>
