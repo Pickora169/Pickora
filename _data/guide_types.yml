@@ -1,0 +1,4 @@
+- { name: "Best Picks", slug: best-picks }
+- { name: "Comparisons", slug: comparisons }
+- { name: "Buying Guides", slug: buying-guides }
+- { name: "Deals", slug: deals }

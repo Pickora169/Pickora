@@ -1,0 +1,7 @@
+- { name: "Electronics & Gadgets", slug: electronics-gadgets }
+- { name: "Home & Kitchen", slug: home-kitchen }
+- { name: "Beauty & Grooming", slug: beauty-grooming }
+- { name: "Fashion & Lifestyle", slug: fashion-lifestyle }
+- { name: "Home & Living", slug: home-living }
+- { name: "Fitness & Wellness", slug: fitness-wellness }
+- { name: "Everyday Essentials", slug: everyday-essentials }

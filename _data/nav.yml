@@ -1,0 +1,7 @@
+- { name: Home, url: / }
+- { name: Reviews, url: /reviews/ }
+- { name: Best Picks, url: /guides/best-picks/ }
+- { name: Comparisons, url: /guides/comparisons/ }
+- { name: Buying Guides, url: /guides/buying-guides/ }
+- { name: Deals, url: /guides/deals/ }
+- { name: About Us, url: /about-us/ }
