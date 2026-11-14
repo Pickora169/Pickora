@@ -1,0 +1,114 @@
+---
+layout: default
+title: Find Better Products. Make Smarter Choices.
+---
+{% assign reviews = site.reviews | sort: "date" | reverse %}
+{% assign feat = reviews | where: "slug", site.featured_review | first %}
+{% unless feat %}{% assign feat = reviews | first %}{% endunless %}
+
+<section class="hero"><div class="wrap">
+  <h1>Find Better Products. Make Smarter Choices.</h1>
+  <p>Discover thoughtfully researched product reviews, honest comparisons and practical buying guides to help you choose products worth your money.</p>
+  {% include search-form.html id="hero" %}
+  <div class="btns">
+    <a class="btn btn--gold" href="{{ '/reviews/' | relative_url }}">Explore Reviews</a>
+    <a class="btn btn--ghost" href="{{ '/guides/buying-guides/' | relative_url }}">Browse Buying Guides</a>
+  </div>
+</div></section>
+
+{% if feat %}
+{% assign ftested = false %}{% if feat.review_type == "tested" %}{% assign ftested = true %}{% endif %}
+<section class="sec sec--ivory" aria-labelledby="feat-h"><div class="wrap">
+  <div class="sec-head"><h2 id="feat-h">Featured Review</h2></div>
+  <div class="feat">
+    <div class="ph">{% if feat.image %}<img src="{{ feat.image | relative_url }}" alt="{{ feat.image_alt | default: feat.title | escape }}">{% else %}<img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="">{% endif %}</div>
+    <div class="bd">
+      <span class="badge {% if ftested %}badge--sage{% endif %}">{% if ftested %}Hands-on tested{% else %}Research-based review{% endif %}</span>
+      <div class="meta"><span class="cat">{{ feat.category }}</span> &middot; {{ feat.date | date: "%-d %B %Y" }}</div>
+      <h3 style="font-size:1.8rem">{{ feat.title }}</h3>
+      <p>{{ feat.excerpt | strip_html | truncate: 200 }}</p>
+      <button type="button" class="btn" data-pk-open>View Review</button>
+    </div>
+  </div>
+</div></section>
+
+<div class="lb" id="pk-lightbox" role="dialog" aria-modal="true" aria-labelledby="lb-title">
+  <div class="lb-box">
+    <button type="button" class="lb-x" aria-label="Close">&times;</button>
+    <div class="lb-top">
+      <div class="ph">{% if feat.image %}<img src="{{ feat.image | relative_url }}" alt="{{ feat.image_alt | default: feat.title | escape }}">{% else %}<img src="{{ '/assets/img/placeholder.svg' | relative_url }}" alt="">{% endif %}</div>
+      <div class="bd">
+        <div class="meta"><span class="cat">{{ feat.category }}</span></div>
+        <h2 id="lb-title" style="margin:0">{{ feat.title }}</h2>
+        <p>{{ feat.excerpt | strip_html | truncate: 220 }}</p>
+        {% if feat.verdict %}<div class="verdict"><strong>Quick verdict.</strong> {{ feat.verdict }}</div>{% endif %}
+        <a class="btn" href="{{ feat.url | relative_url }}">Read Full Review</a>
+      </div>
+    </div>
+    <div class="lb-body">
+      {% if feat.pros or feat.cons %}<div class="two">
+        <div class="pc pc--pro"><h3>Pros</h3><ul>{% for x in feat.pros %}<li>{{ x }}</li>{% endfor %}</ul></div>
+        <div class="pc pc--con"><h3>Cons</h3><ul>{% for x in feat.cons %}<li>{{ x }}</li>{% endfor %}</ul></div>
+      </div>{% endif %}
+      {% if feat.highlights %}<h3>Highlights</h3><ul>{% for x in feat.highlights %}<li>{{ x }}</li>{% endfor %}</ul>{% endif %}
+      <div class="two" style="margin-top:16px">
+        {% if feat.who_buy %}<div><h3>Who should consider it</h3><ul>{% for x in feat.who_buy %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+        {% if feat.who_avoid %}<div><h3>Who might prefer alternatives</h3><ul>{% for x in feat.who_avoid %}<li>{{ x }}</li>{% endfor %}</ul></div>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<section class="sec"><div class="wrap">
+  <div class="sec-head"><h2>Explore Categories</h2></div>
+  <div class="cats">{% for c in site.data.categories %}{% assign n = site.reviews | where: "category", c.name | size %}
+    <a class="cat-card" href="{{ '/category/' | append: c.slug | append: '/' | relative_url }}">{{ c.name }}<small>{{ n }} review{% if n != 1 %}s{% endif %}</small></a>{% endfor %}</div>
+</div></section>
+
+<section class="sec sec--ivory"><div class="wrap">
+  <div class="sec-head"><h2>Latest Product Reviews</h2><a class="btn btn--ghost" href="{{ '/reviews/' | relative_url }}">View All Reviews</a></div>
+  {% if reviews.size > 0 %}<div class="grid">{% for r in reviews limit: 8 %}{% include card.html item=r %}{% endfor %}</div>
+  {% else %}<p>No reviews published yet. Add your first file in the <code>_reviews</code> folder.</p>{% endif %}
+</div></section>
+
+{% assign picks = reviews | where: "editors_pick", true %}
+{% if picks.size > 0 %}<section class="sec"><div class="wrap">
+  <div class="sec-head"><h2>Editor&rsquo;s Picks &ndash; Products Worth Exploring</h2></div>
+  <div class="grid">{% for r in picks limit: 4 %}{% include card.html item=r %}{% endfor %}</div>
+</div></section>{% endif %}
+
+{% capture budget_html %}{% for b in site.data.budgets %}{% assign n = site.guides | where: "budget", b.slug | size %}{% if n > 0 %}<a class="cat-card" href="{{ '/budget/' | append: b.slug | append: '/' | relative_url }}">Best Products {{ b.name }}<small>{{ n }} guide{% if n != 1 %}s{% endif %}</small></a>{% endif %}{% endfor %}{% endcapture %}
+{% assign budget_check = budget_html | strip %}
+{% if budget_check != "" %}<section class="sec"><div class="wrap"><div class="sec-head"><h2>Best Products by Budget</h2></div><div class="cats">{{ budget_html }}</div></div></section>{% endif %}
+
+{% assign guides = site.guides | sort: "date" | reverse %}
+{% assign comps = guides | where: "type", "comparisons" %}
+{% if comps.size > 0 %}<section class="sec sec--ivory"><div class="wrap">
+  <div class="sec-head"><h2>Confused Between Two Products? Let&rsquo;s Compare.</h2><a class="btn btn--ghost" href="{{ '/guides/comparisons/' | relative_url }}">View all</a></div>
+  <div class="grid">{% for g in comps limit: 4 %}{% include card.html item=g %}{% endfor %}</div>
+</div></section>{% endif %}
+{% assign bg = guides | where: "type", "buying-guides" %}
+{% if bg.size > 0 %}<section class="sec"><div class="wrap">
+  <div class="sec-head"><h2>Buying Guides</h2><a class="btn btn--ghost" href="{{ '/guides/buying-guides/' | relative_url }}">View all</a></div>
+  <div class="grid">{% for g in bg limit: 4 %}{% include card.html item=g %}{% endfor %}</div>
+</div></section>{% endif %}
+
+<section class="sec sec--navy"><div class="wrap">
+  <h2>Our Promise: Better Information. Smarter Decisions.</h2>
+  <div class="trust">
+    <div><h3>Research Before Recommendations</h3><p>We focus on understanding product specifications, features and available evidence before recommending products.</p></div>
+    <div><h3>Honest Pros and Cons</h3><p>Every review should explain both the strengths and limitations of a product.</p></div>
+    <div><h3>Transparent Recommendations</h3><p>We clearly disclose affiliate relationships and explain how the website earns commissions.</p></div>
+    <div><h3>Consumer-First Approach</h3><p>Our objective is to help readers choose products based on their requirements and budgets, not simply push products.</p></div>
+  </div>
+  <p style="margin-top:28px"><a class="btn btn--gold" href="{{ '/our-review-methodology/' | relative_url }}">Our Review Methodology</a></p>
+</div></section>
+
+<section class="sec sec--ivory pledge"><div class="wrap">
+  <h2>Your Trust Matters More Than a Sale.</h2>
+  <p>At PICKORA, we believe a good buying decision starts with good information. Our goal is to simplify product research through thoughtful reviews, useful comparisons and transparent recommendations. We aim to explain what makes a product worth considering, where it may fall short and who it is best suited for. We believe informed buyers make better decisions.</p>
+  <a class="btn btn--ghost" href="{{ '/editorial-policy/' | relative_url }}">Read our Editorial Policy</a>
+</div></section>
+
+{% include newsletter.html %}

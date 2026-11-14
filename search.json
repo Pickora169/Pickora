@@ -1,0 +1,5 @@
+---
+layout: null
+permalink: /search.json
+---
+[{% assign all = site.reviews | concat: site.guides %}{% for i in all %}{"title":{{ i.title | jsonify }},"url":{{ i.url | relative_url | jsonify }},"category":{{ i.category | default: i.type | jsonify }},"excerpt":{{ i.excerpt | strip_html | strip_newlines | truncate: 160 | jsonify }}}{% unless forloop.last %},{% endunless %}{% endfor %}]

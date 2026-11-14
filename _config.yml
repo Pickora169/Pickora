@@ -1,0 +1,39 @@
+title: PICKORA
+tagline: Better Picks. Smarter Living.
+description: Researched product reviews, honest comparisons and practical buying guides for Indian shoppers.
+# After deploying, set these two (see README.md):
+url: "https://YOUR-USERNAME.github.io"
+baseurl: "/YOUR-REPO"        # use "" for a user site (username.github.io) or a custom domain
+lang: en-IN
+encoding: utf-8
+
+# ---- Site settings you edit (no code needed)
+affiliate_tag: ""            # your Amazon Associates tracking ID, e.g. yourname-21
+featured_review: ""          # slug (file name without .md) of the homepage featured review. Blank = latest review
+contact_form_endpoint: ""    # e.g. https://formspree.io/f/xxxxxxx
+newsletter_endpoint: ""      # your email service form URL (Formspree, Buttondown, Mailchimp...)
+contact_email: ""
+social:
+  instagram: ""
+  facebook: ""
+  youtube: ""
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:path/
+  guides:
+    output: true
+    permalink: /guide/:path/
+
+defaults:
+  - scope: { path: "", type: "reviews" }
+    values: { layout: "review" }
+  - scope: { path: "", type: "guides" }
+    values: { layout: "guide" }
+
+exclude: [README.md, docs, Gemfile, Gemfile.lock, vendor, node_modules, _templates]
