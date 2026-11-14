@@ -1,0 +1,5 @@
+<form role="search" method="get" class="sform" action="{{ '/search/' | relative_url }}">
+  <label class="sr" for="q-{{ include.id | default: 'x' }}">Search PICKORA</label>
+  <input type="search" id="q-{{ include.id | default: 'x' }}" name="q" placeholder="Search reviews, guides and products">
+  <button class="btn btn--gold" type="submit">Search</button>
+</form>

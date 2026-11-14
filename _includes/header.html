@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="logo" href="{{ '/' | relative_url }}" aria-label="PICKORA home">{% include logo.html %}<span>PICKORA</span></a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <ul>{% for n in site.data.nav %}<li><a href="{{ n.url | relative_url }}">{{ n.name }}</a></li>{% endfor %}</ul>
+    </nav>
+    <div class="hdr-tools">
+      <div class="social">{% include social.html %}</div>
+      <button class="icon-btn" id="search-toggle" aria-expanded="false" aria-controls="search-panel" aria-label="Search"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+      <button class="icon-btn burger" id="burger" aria-expanded="false" aria-controls="nav" aria-label="Menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    </div>
+  </div>
+  <div class="search-panel" id="search-panel"><div class="wrap">{% include search-form.html id="hdr" %}</div></div>
+</header>

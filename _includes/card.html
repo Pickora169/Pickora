@@ -1,0 +1,11 @@
+{% assign it = include.item %}{% assign label = it.category %}
+{% if it.type %}{% assign gt = site.data.guide_types | where: "slug", it.type | first %}{% assign label = gt.name %}{% endif %}
+<article class="card">
+  <a class="ph" href="{{ it.url | relative_url }}" tabindex="-1" aria-hidden="true"><img src="{% if it.image %}{{ it.image | relative_url }}{% else %}{{ '/assets/img/placeholder.svg' | relative_url }}{% endif %}" alt="" loading="lazy"></a>
+  <div class="bd">
+    <div class="meta">{% if label %}<span class="cat">{{ label }}</span> &middot; {% endif %}<time datetime="{{ it.date | date_to_xmlschema }}">{{ it.date | date: "%-d %b %Y" }}</time></div>
+    <h3><a href="{{ it.url | relative_url }}">{{ it.title }}</a></h3>
+    <p>{{ it.excerpt | strip_html | strip_newlines | truncate: 120 }}</p>
+    <a class="more" href="{{ it.url | relative_url }}">Read more</a>
+  </div>
+</article>

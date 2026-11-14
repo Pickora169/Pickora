@@ -1,0 +1,6 @@
+{% assign su = page.url | absolute_url | uri_escape %}
+<div class="share"><strong>Share:</strong>
+  <a href="https://wa.me/?text={{ page.title | uri_escape }}%20{{ su }}" target="_blank" rel="noopener">WhatsApp</a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ su }}" target="_blank" rel="noopener">Facebook</a>
+  <a href="https://twitter.com/intent/tweet?url={{ su }}&text={{ page.title | uri_escape }}" target="_blank" rel="noopener">X</a>
+</div>
