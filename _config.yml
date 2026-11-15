@@ -2,8 +2,8 @@ title: PICKORA
 tagline: Better Picks. Smarter Living.
 description: Researched product reviews, honest comparisons and practical buying guides for Indian shoppers.
 # After deploying, set these two (see README.md):
-url: "https://YOUR-USERNAME.github.io"
-baseurl: "/YOUR-REPO"        # use "" for a user site (username.github.io) or a custom domain
+url: "https://pickora169.github.io"
+baseurl: "/Pickora"        # use "" for a user site (username.github.io) or a custom domain
 lang: en-IN
 encoding: utf-8
 
