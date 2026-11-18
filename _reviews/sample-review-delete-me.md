@@ -1,4 +1,4 @@
----\nimage: "/assets/images/reviews/1795008155501-61b98396-9e3f-4ebe-8d0d-e728e2e5e4ad.jpeg"\n---\n\n---
+---\nimage: "/assets/images/reviews/1795008155501-61b98396-9e3f-4ebe-8d0d-e728e2e5e4ad.jpeg"
 title: "Sample Review (delete this file)"
 date: 2026-01-01 09:00:00 +0530
 category: "Electronics & Gadgets"
