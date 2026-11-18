@@ -1,0 +1,20 @@
+---
+title: "Dashboard Test Review"
+category: "Electronics & Gadgets"
+review_type: research-based
+author: Pickora
+date: 2026-11-18
+excerpt: "Testing the Pickora review management dashboard."
+verdict: "Test review created successfully."
+best_for: "Dashboard testing"
+pros:
+  - Easy review management
+cons:
+  - Test content only
+---
+
+# Dashboard Test Review
+
+This is a test review created using the Pickora Admin Dashboard.
+
+The purpose is to verify that new reviews can be saved to GitHub.
