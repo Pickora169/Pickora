@@ -1,7 +1,5 @@
 
 
-
-
 ---
 title: "Borosil Vajra Square Grill Fry Pan Review: Is It Worth Buying?"
 image: "/assets/images/reviews/1795077811668-IMG_4613.jpeg"
