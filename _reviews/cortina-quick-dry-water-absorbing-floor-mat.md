@@ -1,4 +1,3 @@
-
 ---
 title: "Cortina Quick Dry Water Absorbing Floor Mat Review: Is It Worth Buying?"
 image:"/assets/images/reviews/1795099918887-IMG_4630.jpeg"
