@@ -1,6 +1,4 @@
-
 ---
-
 title: “Borosil Vajra Square Grill Fry Pan Review: Is It Worth Buying?”
 image: "/assets/images/reviews/1795077811668-IMG_4613.jpeg"
 category: "Kitchen & Home"
@@ -88,5 +86,4 @@ Its ridged surface is designed for grilling and searing, making it suitable for 
 Affiliate Disclosure
 
 Pickora may earn a commission when you purchase through qualifying affiliate links, at no additional cost to you.
-
 ---
