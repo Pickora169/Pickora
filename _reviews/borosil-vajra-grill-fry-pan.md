@@ -1,5 +1,7 @@
 
 
+
+
 ---
 title: "Borosil Vajra Square Grill Fry Pan Review: Is It Worth Buying?"
 image: "/assets/images/reviews/1795077811668-IMG_4613.jpeg"
@@ -10,7 +12,7 @@ date: 2026-11-19
 excerpt: "Looking for an easy way to grill paneer, vegetables and more at home? Here's what you should know about the Borosil Vajra Square Grill Fry Pan."
 verdict: "A sturdy-looking, feature-rich grill pan for everyday gas-stove cooking, especially if you enjoy grilled vegetables, paneer and seared foods."
 best_for: "Home cooks who want a non-stick grill pan for paneer, vegetables, sandwiches and searing."
-
+---
 pros:
   - "5-layer non-stick coating designed for easier food release and less oil"
   - "5 mm thick die-cast aluminium body"
