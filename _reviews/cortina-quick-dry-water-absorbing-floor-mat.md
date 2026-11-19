@@ -9,6 +9,7 @@ date: 2026-11-19
 excerpt: "Looking for a quick-drying, non-slip mat for your bathroom or kitchen? Here's what to know about the Cortina water-absorbing floor mat."
 verdict: "A practical everyday floor mat with water absorption, a cushioned surface and a non-slip backing, designed for keeping frequently used areas cleaner and drier."
 best_for: "Homes that need a lightweight, water-absorbing mat near the bathroom, kitchen sink or washing area."
+---
 pros:
   - "Soft upper surface provides cushioning underfoot"
   - "Rubber backing is designed to provide a firm, non-slip grip"
