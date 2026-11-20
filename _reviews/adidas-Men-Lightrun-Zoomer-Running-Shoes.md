@@ -23,6 +23,7 @@ cons:
   - "Fit and long-distance comfort may vary between users"
 affiliate_url: "https://link.amazon/B00RByjCW"
 ---
+
 ## Key Product Specifications
 
 - **Brand:** adidas
