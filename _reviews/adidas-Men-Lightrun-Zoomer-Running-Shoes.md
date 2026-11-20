@@ -16,14 +16,12 @@ best_for: "Men looking for budget-friendly adidas shoes for everyday wear, walki
   - "Rubber outsole offers grip on suitable everyday surfaces"
   - "Lace-up closure allows an adjustable fit"
   - "Recognised adidas branding at an affordable listed price"
-
 cons:
   - "Not water-resistant, so unsuitable for wet conditions"
   - "Customer rating of 3.6 out of 5 from only 12 reviews"
   - "Running performance and cushioning have not been independently tested"
   - "Listed weight of 770 g should be checked for whether it refers to one shoe or the pair"
   - "Fit and long-distance comfort may vary between users"
-
 affiliate_url: "https://link.amazon/B00RByjCW"
 
 ## Key Product Specifications
