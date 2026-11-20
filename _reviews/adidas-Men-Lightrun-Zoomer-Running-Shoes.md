@@ -23,7 +23,7 @@ cons:
   - "Running performance and cushioning have not been independently tested"
   - "Listed weight of 770 g should be checked for whether it refers to one shoe or the pair"
   - "Fit and long-distance comfort may vary between users"
-affiliate_url: "https://link.amazon/B00RByjCW"
+    affiliate_url: "https://link.amazon/B00RByjCW"
 ## Key Product Specifications
 
 - **Brand:** adidas
