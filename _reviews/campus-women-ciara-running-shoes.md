@@ -1,200 +1,174 @@
-
 ---
-title: "Fastrack 9 to Fine Quartz Analog Watch Review: Is It Worth Buying?"
-image: "/assets/images/reviews/1795144212091-IMG_4635.jpeg"
-image_alt: "Fastrack 9 to Fine men's analog watch with green sunray dial and black stainless steel strap"
+title: "Campus Women Ciara Running Shoes Review: Are They Worth Buying?"
+image: "/assets/images/reviews/1795358180243-IMG_4696.jpeg"
+image_alt: "Campus Women Ciara running shoes in off-white and baby pink"
 category: "Fashion & Lifestyle"
 review_type: research-based
 author: Pickora
-date: 2026-11-20
-excerpt: "Looking for a stylish everyday watch with a distinctive green dial? Here's what you should know about the Fastrack 9 to Fine Quartz Analog Watch, featuring a black metal strap and modern design."
-verdict: "A contemporary analog watch featuring a green sunray dial, black stainless steel bracelet and quartz movement. A stylish option to consider for workwear and everyday outfits."
-best_for: "Men looking for a modern analog watch with a distinctive green dial and a black metal bracelet for everyday and office wear."
+date: 2026-11-22
+excerpt: "Looking for affordable women's running shoes for walking, gym sessions and everyday wear? Here's what you should know about the Campus Women Ciara running shoes."
+verdict: "The Campus Women Ciara shoes offer a comfortable-looking combination of a cushioned insole, breathable mesh upper, lightweight construction and anti-slip sole at an affordable price."
+best_for: "Women looking for budget-friendly sports shoes for walking, light running, gym workouts and everyday casual wear."
 pros:
-  - "Green sunray dial creates an eye-catching appearance"
-  - "Black stainless steel bracelet offers a modern finish"
-  - "Quartz movement provides convenient battery-powered timekeeping"
-  - "Tapered strap design is intended for a comfortable fit"
-  - "30-metre water resistance for everyday exposure to splashes"
-  - "Mineral crystal protects the watch dial"
+  - "Cushioned foam insole for everyday comfort"
+  - "Breathable mesh upper"
+  - "Anti-slip sole for improved grip"
+  - "Lightweight design suitable for daily use"
+  - "Lace-up closure for an adjustable fit"
+  - "Versatile styling for sports and casual outfits"
+  - "Moderate cushioning and medium arch support"
 cons:
-  - "Asymmetrical case design may not appeal to everyone"
-  - "Mineral crystal is not as scratch-resistant as sapphire crystal"
-  - "30-metre water resistance does not make it suitable for swimming or diving"
-  - "Listed weight of 200 g may feel heavy for some users"
-  - "The supplied listing does not provide independent long-term durability testing"
-affiliate_url: "https://link.amazon/B0bcgtCCz"
+  - "Not water resistant"
+  - "Moderate cushioning may not suit everyone for long-distance running"
+  - "Grip and durability can vary depending on the surface and usage"
+  - "No detailed technical running-performance specifications provided"
+  - "Fit and comfort may vary depending on foot shape"
+affiliate_url: "https://link.amazon/B0cNmGudJ"
 ---
 
-## Key Product Specifications
+## Campus Women Ciara Running Shoes: Overview
 
-- **Brand:** Fastrack
-- **Model Name:** 9 to Fine
-- **Model Number:** 3354NM02
-- **Product Type:** Men's Analog Watch
-- **Display:** Analog
-- **Movement:** Quartz
-- **Power Source:** Battery
-- **Dial Colour:** Green
-- **Dial Finish:** Sunray
-- **Band Colour:** Black
-- **Band Material:** Stainless Steel
-- **Strap Type:** Bracelet
-- **Case Shape:** Asymmetrical
-- **Case Material:** Brass
-- **Crystal Material:** Mineral
-- **Case Diameter:** 48 mm
-- **Case Thickness:** 9.2 mm
-- **Band Width:** 1.2 mm (as listed; verify with manufacturer)
-- **Water Resistance:** 30 metres
-- **Clasp:** Sliding clasp
-- **Listed Weight:** 200 g
-- **Country of Origin:** India
-- **ASIN:** B0HDCJG5ZH
+The Campus Women Ciara Running Shoes are designed for women who want comfortable and versatile footwear for everyday activities. Featuring a breathable mesh upper, cushioned foam insole and anti-slip sole, these shoes are positioned as an affordable option for walking, gym workouts and casual sports use.
 
-## What Makes the Fastrack 9 to Fine Watch Worth Considering?
+The OFF.WHT/BABY.PINK colour combination gives them a clean, sporty appearance that can also work with everyday outfits.
 
-The Fastrack 9 to Fine is designed for buyers who want something different from a traditional-looking everyday watch.
+With a lace-up closure, lightweight construction and flexible design, the Ciara shoes aim to provide a comfortable fit for regular use without stretching your budget.
 
-Its green sunray dial, black stainless steel bracelet and asymmetrical case give it a contemporary appearance that can work with both formal and casual outfits.
+## Key Specifications
 
-Let's look at its main features.
+| Specification | Details |
+|---|---|
+| Brand | Campus |
+| Model | Ciara |
+| Shoe Type | Athletic / Running Shoes |
+| Gender | Women |
+| Colour | Off-White / Baby Pink |
+| Upper Material | Breathable Mesh (as described by seller) |
+| Insole | Cushioned Foam |
+| Closure | Lace-Up |
+| Sole Feature | Anti-Slip |
+| Arch Type | Medium Arch |
+| Cushioning Level | Moderate |
+| Heel Type | Flat |
+| Toe Style | Round Toe |
+| Water Resistance | Not Water Resistant |
+| Sport Type | Running |
+| Surface Recommendation | Concrete |
+| Item Weight | 496g (listed) |
+| Dimensions | 28 × 20 × 11 cm |
 
-## 1. Distinctive Green Sunray Dial
+## Key Features Explained
 
-The green dial is one of the most noticeable features of this watch.
+### 1. Cushioned Foam Insole
 
-According to the product description, it includes a detailed minute ring, sunray finish and gradient indices.
+One of the main highlights of the Campus Ciara shoes is their cushioned foam insole.
 
-The sunray finish is designed to reflect light at different angles, giving the dial additional visual depth.
+It is designed to provide a softer feel underfoot and help reduce discomfort during everyday walking and regular activities.
 
-If you prefer watches that stand out without relying on an overly complicated design, this colour combination may appeal to you.
+The cushioning is listed as moderate, so these shoes may be more suitable for casual fitness and daily use than for runners looking for specialised high-impact cushioning.
 
-## 2. Black Stainless Steel Bracelet
+### 2. Breathable Mesh Upper
 
-The watch features a black stainless steel bracelet with a tapered design.
+The mesh upper is designed to allow airflow around the feet, which can help improve comfort during workouts and extended everyday wear.
 
-The manufacturer describes the strap as being designed to provide a comfortable fit while maintaining a sleek appearance.
+This feature is particularly useful during warm weather or light exercise when feet may become warm.
 
-Its black finish pairs well with the green dial, creating a bold and modern colour combination.
+### 3. Anti-Slip Sole
 
-## 3. Quartz Analog Movement
+The shoes feature an anti-slip sole intended to provide traction on different surfaces.
 
-The Fastrack 9 to Fine uses battery-powered quartz movement.
+The product description highlights its suitability for walking, running and gym use. However, actual grip can vary depending on the surface condition, including wet or slippery floors.
 
-Quartz watches are generally convenient for everyday timekeeping and do not require manual winding like traditional mechanical watches.
+### 4. Lightweight and Flexible Design
 
-It also has an analog display, making it a suitable choice for buyers who prefer conventional watch styling.
+The lightweight construction and flexible design make these shoes suitable for regular activities such as walking, casual workouts and everyday movement.
 
-## 4. 30-Metre Water Resistance
+They are intended to offer a balance between comfort and practicality without feeling overly bulky.
 
-The watch is listed with water resistance up to 30 metres.
+### 5. Lace-Up Adjustable Fit
 
-This is intended for limited everyday water exposure, such as minor splashes.
+The traditional lace-up closure allows you to adjust the fit according to your preference.
 
-However, a 30-metre rating should not be interpreted as permission for swimming, showering or diving. Follow the manufacturer's water-resistance guidance.
+This can help keep the shoes secure during walking and exercise. Make sure to choose the correct size for proper comfort and support.
 
-## 5. Modern Case Design
+### 6. Versatile Sporty Style
 
-The watch features an asymmetrical case with a listed diameter of 48 mm and thickness of 9.2 mm.
+The off-white and baby pink colour combination gives the shoes a subtle, feminine sporty appearance.
 
-This gives it a noticeable wrist presence.
+Their casual styling makes them suitable for pairing with leggings, joggers, jeans and everyday activewear.
 
-However, the 48 mm case diameter may feel large on smaller wrists, so checking the dimensions before purchasing is recommended.
+## Pros and Cons
+
+**What We Like**
+- Cushioned foam insole
+- Breathable mesh upper
+- Anti-slip sole design
+- Lightweight and flexible construction
+- Adjustable lace-up closure
+- Attractive off-white and baby pink colour combination
+- Suitable for multiple everyday activities
+
+**What Could Be Better**
+- Not suitable for use in heavy rain or wet conditions
+- Moderate cushioning may not meet every runner's needs
+- No specialised running-performance technology mentioned
+- Actual grip and durability need to be judged through regular use
 
 ## Who Should Consider Buying It?
 
-This Fastrack watch may be worth considering if you:
+The Campus Women Ciara Running Shoes may be worth considering if you:
 
-- Prefer watches with distinctive green dials.
-- Like black stainless steel bracelets.
-- Want a modern analog watch for everyday use.
-- Need an accessory suitable for office and casual outfits.
-- Prefer battery-powered quartz movement.
-- Like contemporary and unconventional case designs.
+- Want affordable everyday sports shoes
+- Need comfortable footwear for walking
+- Visit the gym for regular workouts
+- Prefer breathable mesh shoes
+- Like lightweight footwear for daily activities
+- Want a sporty design that works with casual outfits
+- Prefer an adjustable lace-up fit
 
 ## Who Should Skip It?
 
-Consider other options if you:
+You may want to explore other options if you:
 
-- Prefer traditional round watch cases.
-- Have smaller wrists and prefer compact watches.
-- Want sapphire crystal for improved scratch resistance.
-- Need a watch for swimming or diving.
-- Prefer lightweight watches.
-- Want a watch with independently verified long-term durability.
+- Need specialised shoes for long-distance or competitive running
+- Require extra cushioning for high-impact workouts
+- Need waterproof footwear
+- Have specific arch-support requirements
+- Prefer premium running shoes with advanced performance features
 
-## Styling Tips
+## Are Campus Women Ciara Running Shoes Worth Buying?
 
-The green dial and black bracelet make this watch suitable for different outfits.
+At the listed deal price of ₹1,149, compared with the stated MRP of ₹1,999, the Campus Women Ciara Running Shoes offer an appealing combination of everyday comfort features and sporty styling.
 
-You can consider pairing it with:
+The cushioned foam insole, breathable mesh upper, anti-slip sole and adjustable lace-up closure make them a practical option for walking, gym sessions and casual daily use.
 
-- Black shirts and dark denim.
-- White shirts and formal trousers.
-- Casual T-shirts and jeans.
-- Neutral-coloured office outfits.
-- Smart-casual jackets and shirts.
+However, they are not water resistant, and their moderate cushioning may not be ideal for everyone who runs long distances or performs high-impact workouts.
 
-The green dial can add a subtle statement to otherwise simple outfits.
-
-## Care and Maintenance Tips
-
-To help maintain your Fastrack watch:
-
-- Clean the bracelet using a soft cloth.
-- Avoid harsh chemicals and cleaning agents.
-- Keep the watch away from strong impacts.
-- Avoid exposing it to hot water or steam.
-- Have the battery replaced by a qualified service centre.
-- Follow the manufacturer's water-resistance instructions.
-
-## Final Verdict
-
-The Fastrack 9 to Fine Quartz Analog Watch combines a distinctive green sunray dial, black stainless steel bracelet and battery-powered quartz movement.
-
-Its contemporary design makes it an interesting option for men who want an everyday accessory that can complement both office and casual clothing.
-
-However, its relatively large 48 mm case, listed 200 g weight and limited 30-metre water resistance are worth considering before purchasing.
-
-**Pickora Verdict:** Worth considering if you want a bold green-dial analog watch with a modern black metal bracelet for everyday and workwear styling.
-
-This is a research-based review prepared using the supplied product listing and specifications. Pickora has not personally tested this product.
+**Final Verdict:** If you are looking for affordable women's sports shoes for everyday walking, casual fitness and gym use, the Campus Women Ciara Running Shoes are worth considering at the listed ₹1,149 deal price.
 
 ## Frequently Asked Questions
 
-**1. Is the Fastrack 9 to Fine an analog watch?**
+### 1. Are Campus Women Ciara shoes suitable for running?
+They are marketed as running shoes and may be suitable for casual running and everyday fitness activities. Serious or long-distance runners may prefer specialised running footwear.
 
-Yes. It features an analog display and quartz movement.
+### 2. Are these shoes comfortable for daily wear?
+The cushioned foam insole and breathable mesh upper are designed to provide everyday comfort.
 
-**2. What is the dial colour?**
+### 3. Do Campus Ciara shoes have an anti-slip sole?
+Yes. The product description highlights an anti-slip sole for improved traction.
 
-The watch features a green sunray-finish dial.
+### 4. Are these shoes waterproof?
+No. They are listed as not water resistant.
 
-**3. Is the strap made of stainless steel?**
+### 5. Can I wear them to the gym?
+Yes. They are marketed for sports and gym workouts, including general fitness activities.
 
-Yes. The supplied specifications identify the bracelet material as stainless steel.
+### 6. Do these shoes have a lace-up closure?
+Yes. They feature an adjustable lace-up closure for a customised fit.
 
-**4. Is this watch waterproof?**
+### 7. What colour are the Campus Women Ciara shoes?
+The listed colour combination is OFF.WHT/BABY.PINK (off-white and baby pink).
 
-It is water-resistant up to 30 metres according to the listing. It should not be treated as suitable for swimming or diving.
+---
 
-**5. What is the model number?**
-
-The model number is 3354NM02.
-
-**6. What is the case diameter?**
-
-The listed case diameter is 48 mm.
-
-**7. Does it use a battery?**
-
-Yes. It uses battery-powered quartz movement.
-
-**8. What type of glass does the watch use?**
-
-The supplied specifications identify mineral crystal.
-
-## Affiliate Disclosure
-
-Pickora may earn a commission when you purchase through qualifying affiliate links, at no additional cost to you.
+**Affiliate Disclosure:** This article may contain affiliate links. If you purchase through these links, Pickora may earn a small commission at no additional cost to you. Our research-based reviews aim to help you make informed shopping decisions.
